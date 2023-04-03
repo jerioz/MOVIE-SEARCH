@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <h1 class="navbar-brand">SEARCH MOVIES</h1>
+          <form class="d-flex flex-grow" role="search">
+            <input id="search" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button id="getBtn" type="submit" class="btn btn-secondary">Buscar</button>
+          </form>
+        </div>
+      </nav>
+      <div id="movies" class="d-flex  justify-content-center flex-wrap"></div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>   
+</body>
+</html>
